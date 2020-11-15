@@ -7,7 +7,7 @@ def add(request):
 	from random import randint 
 
 	num_1 = randint(0, 10)
-	num_2 = randint(0, 10)
+	num_2 = randint(1, 10)
 	if request.method == "POST":
 		answer = request.POST['answer']
 		old_num_1 = request.POST['old_num_1']
